@@ -1,0 +1,10 @@
+{
+  "name": "sigil-sdk",
+  "version": "4.0.0",
+  "description": "SIGIL — AI-Powered Dependency Execution Firewall SDK",
+  "main": "bin/sigil.js",
+  "bin": { "sigil": "./bin/sigil.js" },
+  "scripts": { "start": "node bin/sigil.js" },
+  "keywords": ["security","supply-chain","dependency","cli","firewall"],
+  "license": "MIT"
+}
