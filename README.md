@@ -399,14 +399,14 @@ Firebase stores persistent logs. You need your own Firebase project.
 ```typescript
 // ❌ REPLACE THIS (current config belongs to the original developer)
 export const firebaseConfig = {
-  apiKey:            'AIzaSyDHStmhxnW_tyXsPbE6E76Df40T7ksehtI',  // ← change
-  authDomain:        'sigil-222de.firebaseapp.com',               // ← change
-  databaseURL:       'https://sigil-222de-default-rtdb.firebaseio.com', // ← change
-  projectId:         'sigil-222de',                               // ← change
-  storageBucket:     'sigil-222de.firebasestorage.app',           // ← change
-  messagingSenderId: '285624051445',                              // ← change
-  appId:             '1:285624051445:web:dc5d94bca79c8747a447bc', // ← change
-  measurementId:     'G-7QTWET0RMR',                             // ← change
+  apiKey:            '',  // ← change
+  authDomain:        '',               // ← change
+  databaseURL:       '', // ← change
+  projectId:         '',                               // ← change
+  storageBucket:     '',           // ← change
+  messagingSenderId: '',                              // ← change
+  appId:             '', // ← change
+  measurementId:     '',                             // ← change
 }
 
 // ✅ REPLACE WITH YOUR OWN:
